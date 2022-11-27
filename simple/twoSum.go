@@ -1,8 +1,6 @@
-package main
+package simple
 
-import "fmt"
-
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	if nums == nil {
 		return []int{}
 	}
@@ -19,7 +17,7 @@ func twoSum(nums []int, target int) []int {
 	return []int{}
 }
 
-func twoSum2(nums []int, target int) []int {
+func TwoSum2(nums []int, target int) []int {
 	if nums == nil {
 		return []int{}
 	}
@@ -33,10 +31,4 @@ func twoSum2(nums []int, target int) []int {
 	}
 
 	return []int{}
-}
-
-func main() {
-	arr := []int{1, 13, 15, 17}
-	fmt.Println(twoSum(arr, 16))
-	fmt.Println(twoSum2(arr, 16))
 }

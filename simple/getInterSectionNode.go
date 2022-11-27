@@ -1,4 +1,4 @@
-package main
+package simple
 
 type ListNode struct {
 	Var  int
